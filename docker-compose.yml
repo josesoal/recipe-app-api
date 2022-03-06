@@ -1,0 +1,12 @@
+version: "3" # version of file format
+
+services:
+  app:
+    build:
+      context: . # current directory
+    ports:
+      - "8000:8000" # port-host : port-image
+    volumes: # allows updates
+      - ./app:/app
+    command: >
+      sh -c "python manage.py runserver 0.0.0.0:8000"
