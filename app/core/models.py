@@ -35,3 +35,16 @@ class User(AbstractBaseUser, PermissionsMixin):
     objects = UserManager()
 
     USERNAME_FIELD = 'email'
+
+
+'''NOTE:
+Here are details of to specify a custom user model:
+
+docs.djangoproject.com
+/en/4.0/topics/auth/customizing/#specifying-a-custom-user-model
+
+
+Here is a full example of how to create a custom user model:
+
+docs.djangoproject.com/en/4.0/topics/auth/customizing/#a-full-example
+'''

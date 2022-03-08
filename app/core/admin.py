@@ -48,6 +48,13 @@ class UserAdmin(BaseUserAdmin):
 admin.site.register(models.User, UserAdmin)
 
 '''NOTE:
+Here is a full example of how to register this custom user model
+with Django's admin
+
+docs.djangoproject.com/en/4.0/topics/auth/customizing/#a-full-example
+'''
+
+'''NOTE:
 Only the 1st argument for admin.site.register() is mandatory.
 The 2nd argument (optional) is to configure how the model is
 managed in the admin site.
