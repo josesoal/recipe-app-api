@@ -70,3 +70,5 @@ About fieldsets, check:
 docs.djangoproject.com
 /en/4.0/ref/contrib/admin/#django.contrib.admin.ModelAdmin.fieldsets
 '''
+
+admin.site.register(models.Tag)
