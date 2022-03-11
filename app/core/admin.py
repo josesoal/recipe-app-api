@@ -72,3 +72,4 @@ docs.djangoproject.com
 '''
 
 admin.site.register(models.Tag)
+admin.site.register(models.Ingredient)
